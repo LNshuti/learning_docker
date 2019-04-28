@@ -1,8 +1,8 @@
 {
+  "test": "CI=true react-scripts test",
   "name": "frontend-2",
   "version": "0.1.0",
   "private": true,
-  "test": "CI=true react-scripts test",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

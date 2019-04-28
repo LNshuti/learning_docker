@@ -1,5 +1,5 @@
 sudo: required
-osx_image: xcode10.2
+language: generic  
 services:
   - docker
 
@@ -7,4 +7,4 @@ before_install:
   - docker build -t leoncen0/learning_docker -f Dockerfile.dev .
 
 script:
-  - docker run leoncen0/learning_docker npm run test -- --coverage --forceExit
+  - docker run leoncen0/learning_docker npm run test -- --coverage 
