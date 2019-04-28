@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Here is the thing, man.
+          BCPI Advanced stands for Bundled Payments for Care Improvement Advanced
         </p>
         <a
           className="App-link"
